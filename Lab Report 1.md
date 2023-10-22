@@ -7,7 +7,7 @@
 
 * The working directory is: /home
 * No argument means there are no files, or paths given.
-* For the output, when running cat command without any arguments, nothing happens. When I input something later, the output is exactly what the input is.   
+* For the output, when running cat command without any arguments, nothing happens and it is just a blank page. When I input something later, the output is exactly what the input is.   
 * Having no argument means you don't put anything in the command, directory, or path.
 * This is not an error. It's not an error because this is an expected behavior of the cat command. Since we did not pass any path for it, it will read the input instead. The execution of the command will never stop unless I use ctrl + c.     
 
