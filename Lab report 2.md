@@ -22,3 +22,7 @@
 
   ![Image](login no pass.png)
   
+
+  **Part 3**
+
+  From lab in weeks 2 and 3, I learned how to create a server, I know how to log into a remote server. I also learned more about how to create a simple string server and use the URL to execute   some "actions".   
