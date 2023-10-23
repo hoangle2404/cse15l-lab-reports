@@ -32,4 +32,4 @@
 
 **Part 3**
 
-From lab in weeks 2 and 3, I learned how to create a server, I know how to log into a remote server. I also learned more about how to create a simple string server and use the URL to execute   some "actions". The thing I like the most is about the server. I did not know how to create a server before, but now after reading the Server.java and practicing with StringServer, I know more about how to code a server and how to make a server for myself. I also know more about URLs, and what a path, query or anchor is.   
+From labs in week 2 and 3, I learned how to create a server, I know how to log into a remote server. I also learned more about how to create a simple string server and use the URL to execute   some "actions". The thing I like the most is about the server. I did not know how to create a server before, but now after reading the Server.java and practicing with StringServer, I know more about how to code a server and how to make a server for myself. I also know more about URLs, and what a path, query or anchor is.   
