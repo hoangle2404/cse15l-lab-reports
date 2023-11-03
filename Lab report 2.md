@@ -22,9 +22,16 @@
 
 ![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/fdeb9aee-fda0-44aa-a46c-488de0addcaf)
 
+**The path to the private key for your SSH key for logging into ieng6**
+
+![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/120d4d2e-bc55-4869-be99-ce1573da18a5)
+
+
+**The path to the public key for your SSH key for logging into ieng6**
 
 ![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/41faa91a-410e-4416-a33d-101805d1c0bd)
 
+**A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.**
 
 ![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/ee550ea8-0ffc-4464-9baf-f77fc163b4da)
 
