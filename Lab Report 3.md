@@ -65,3 +65,20 @@ The new version of the method addresses the issue because it will swap all the e
 
 _**Part 2**_
 
+**Find**
+
+**-Exec**
+
+`find technical/plos/ -name "*.txt" -exec wc {} \;`
+
+![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/3573c17b-8884-42df-8a35-ad5d49a0995a)
+
+The exec command is used to execute a command on each file that matches the criteria set by the find command. In this example, the files come with number of lines, characters 
+
+`find technical/plos/ -name "*.txt" -exec grep -l  "base pair" {} \;`
+
+The command is used to list the names of files that contain "base pair"
+
+**-mtime**
+
+
