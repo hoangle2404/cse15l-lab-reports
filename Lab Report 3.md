@@ -1,4 +1,4 @@
-_Part 1_
+_**Part 1**_
 
 **A failure-inducing input for the buggy program, as a JUnit test and any associated code**
 
@@ -60,4 +60,8 @@ static void reverseInPlace(int[] arr) {
 
 ![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/c6fe3b53-ab2e-43b3-b5cb-d83f6368f2d8)
 
+
 The new version of the method addresses the issue because it will swap all the elements from position 0 to position n-1 of the array. While the old version of the method can only swap half elements of the array, the latter half of the array cannot be swapped. 
+
+_**Part 2**_
+
