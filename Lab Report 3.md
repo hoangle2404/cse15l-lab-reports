@@ -17,13 +17,44 @@ public class ArrayTests
 **An input that doesn’t induce a failure, as a JUnit test and any associated code**
 
 ```
-public class ArrayTests
-{
   @Test 
-  public void testReverseInPlace()
+  public void testReverseInPlaceOneElement()
    {
-    int[] input1 = { 1,2,3,4,5 };
+    int[] input1 = {3 };
     ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{1,2,3,4,5}, input1);
+    assertArrayEquals(new int[]{3}, input1);
    }
 ```
+
+**The symptom, as the output of running the tests**
+
+![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/adb98286-82ce-4fce-b4f9-8150fdbebba1)
+
+
+**The bug, as the before-and-after code change required to fix it**
+
+**Before**
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+**After**
+```
+static void reverseInPlace(int[] arr) {
+    int temp[] = new int[arr.length];
+      for(int i=0; i < arr.length; i++)
+      {
+        temp[i]=arr[i];
+      }
+    for(int i = 0; i < arr.length; i += 1) 
+    {
+      arr[i] = temp[arr.length - i - 1];
+    }
+  }
+```
+
+**Briefly describe why the fix addresses the issue.**
+
