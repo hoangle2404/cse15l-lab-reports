@@ -1,6 +1,15 @@
 **Lab Report 4**
 
-*Step 5*:
+*Step 4*
+
+Key pressed: `ssh cs15lfa23lo@ieng6.ucsd.edu`
+
+I logged into ieng6 using the `ssh` command.
+
+![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/c55b9800-e14b-4c80-8289-186bd750c16e)
+
+
+*Step 5*
 
 Key pressed: `git clone git@github.com:hoangle2404/lab7.git` `<Enter>`
 
@@ -56,12 +65,24 @@ The `bash test.sh` command was 2 up in the search history, so I pressed the up a
 
 Key pressed: `git add ListExamples.java` `<Enter>`  
 
-The `git add ListExamples.java` command is used to include ListExamples.java so it is ready to be committed. 
+I used the `git add ListExamples.java`, but nothing appeared after that. The `git add` command will make sure that ListExamples.java will be ready to be committed.
 
 ![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/78fae7ef-e0e1-4f8a-aa4d-06b596827920)
 
 
-Key pressed: `git commit` `<Enter>` 
+Key pressed: `git commit` `<Enter>` , `index1 -> index2` `<Esc>` , `:wq` `<Enter>`
+
+I used `git commit` command, then a message appeared, asking me about the commit message for the change. After entering the message, I used `:wq` to save and quit. 
+
+The `git commit` takes every changes that were added, also everything that we had before, and make a new directory with a new commit ID that contains those files
 
 ![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/9235572d-dfae-40e4-b0da-e17a79e92600)
+
+![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/fe6be588-654b-4fd1-a943-4ec9e7d7f972)
+
+Key pressed: `git push` `<Enter>`
+
+The `git push` command is used to send the committed changes when using `git commit` from the local repository to a remote repository. 
+
+![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/274abf29-efa3-4075-99ef-3c8f4b65f558)
 
