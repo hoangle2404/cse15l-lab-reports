@@ -65,7 +65,7 @@ The `bash test.sh` command was 2 up in the search history, so I pressed the up a
 
 Key pressed: `git add ListExamples.java` `<Enter>`  
 
-I used the `git add ListExamples.java`, but nothing appeared after that. The `git add` command will add changes to staging area and make sure that ListExamples.java will be ready to be committed.
+The `git add` command will add changes to staging area and make sure that ListExamples.java will be ready to be committed.
 
 ![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/78fae7ef-e0e1-4f8a-aa4d-06b596827920)
 
