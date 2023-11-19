@@ -65,16 +65,16 @@ The `bash test.sh` command was 2 up in the search history, so I pressed the up a
 
 Key pressed: `git add ListExamples.java` `<Enter>`  
 
-I used the `git add ListExamples.java`, but nothing appeared after that. The `git add` command will make sure that ListExamples.java will be ready to be committed.
+I used the `git add ListExamples.java`, but nothing appeared after that. The `git add` command will add changes to staging area and make sure that ListExamples.java will be ready to be committed.
 
 ![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/78fae7ef-e0e1-4f8a-aa4d-06b596827920)
 
 
 Key pressed: `git commit` `<Enter>` , `index1 -> index2` `<Esc>` , `:wq` `<Enter>`
 
-I used `git commit` command, then a message appeared, asking me about the commit message for the change. After entering the message, I used `:wq` to save and quit. 
+I used `git commit` command, and then a message appeared, asking me about the commit message for the change. After entering the message, I used `:wq` to save and quit. 
 
-The `git commit` takes every changes that were added, also everything that we had before, and make a new directory with a new commit ID that contains those files
+The `git commit` allows you to save changes made to the files in the repository. A test editor will appear when we run `git commit`, which allows us to enter the commit messages to describe the changes.
 
 ![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/9235572d-dfae-40e4-b0da-e17a79e92600)
 
