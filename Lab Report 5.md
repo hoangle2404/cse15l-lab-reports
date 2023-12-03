@@ -21,6 +21,9 @@ If you want to look at the code, try to find the reason why it consumes so much 
 
 *3. Student's implementation*
 
+![image](https://github.com/hoangle2404/cse15l-lab-reports/assets/146885173/48954815-cf17-4400-8c0c-6f2c4055b3f1)
+
+After reviewing the `merge` method in the ListExamples file, I realized that the memory issue comes from line 43. The method used index2 to compare with the size of the list2, but incremented index1 instead of index2. This caused an infinite loop, which exceeded the memory. 
 
 *4. Screenshots*
 
@@ -47,4 +50,5 @@ This is the code after fixing the bug:
 
 ## **Part 2**
 
+During the second half of the course, I learned a lot of new things that I did not know before. The first thing is about VIM, I would say VIM is a new experience for me. I've heard about it before but didn't have the time to practice. The second thing is writing a bash script. Finally, I learned about how to redirect output into a file using just a terminal. It is very useful for me because I won't have to make a new file and copy/paste the output by myself, so I can avoid making mistakes during the copy/paste process. 
 
